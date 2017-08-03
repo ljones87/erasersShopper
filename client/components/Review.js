@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
 import {connect} from 'react-redux'
-import {addReviewById, singleProduct} from "../store"
+import {addReviewById, singleProduct} from '../store'
 
 export class Review extends Component {
   componentDidMount() {
